@@ -1,0 +1,22 @@
+# Python 缓存
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# 本地编辑器配置
+.idea/
+.vscode/
+
+# 训练输出、数据集和模型权重
+/runs/
+/Datasets/
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# 本地环境和凭据
+.env
+.env.*
+.venv/
+venv/
